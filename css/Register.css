@@ -1,0 +1,689 @@
+*{
+    margin:0px;
+    padding: 0px;
+    
+}
+ body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+ }
+ h1,h2,h3,h4,h5{
+    font-family: 'Poppins medium',sans-serif;
+}
+p{
+    font-family: 'Poppins light',sans-serif;
+}
+
+
+/* ###################################### Start of Header Area Code ######################################  */
+/* ###################################### Start of Head-area Code ######################################  */
+
+
+ 
+#head-area-top
+{   
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+   
+    
+}
+
+.head-contact > ul  {
+    font-size: 14px;
+    margin-top:20px;
+    margin-left:60px;
+}
+
+.head-contact > ul > li.list-inline-item:nth-child(2)
+ {
+     border-right:1px solid white;
+     padding:0px 30px 0px 10px
+}
+.head-contact > ul > li.list-inline-item:nth-child(3)
+ {
+    padding:0px 10px 0px 30px
+}
+.head-contact > ul > li.list-inline-item:nth-child(4)
+{
+    color:red;
+}
+
+.head-social-icon ul
+{
+   margin-left: 350px;
+  
+}
+
+.head-social-icon ul > li > a > i{
+    width: 30px;
+    height: 30px;
+    color:#fff;
+    margin-top: 18px;
+    border: 1px solid #000;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 28px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    
+}
+.head-social-icon ul > li > a > i:hover{
+    
+    background-color: #09e474;
+
+}
+
+#menu .menu-area{
+    width: 100%;
+    position: static;
+    border: none;
+    border-radius: 0px;
+    
+}
+#menu .mega-menu{
+     width: 100%;
+     margin-left: 200px;
+     border: none;
+     border-radius: 0px;
+     background-color: #555;
+}
+#menu .blog,#menu .Pages{
+  
+   
+    margin-top: 22px;
+    background-color: #000;
+    color: #fff;
+    
+}
+#menu .blog a,#menu .Pages a{
+    color: #3cb878;
+}
+.col-sm-6 .col-lg-3{
+    margin-bottom: 20px;
+}
+#menu .blog:hover,#menu .Pages:hover{
+    
+   
+    margin-top: 22px;
+    background-color: #000;
+    
+}
+
+
+#menu .mega-menu ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Poppins medium' ,sans-serif;
+    color:#fff;
+    
+
+}
+
+#menu .mega-menu ul li a:hover{
+   
+    color:#3cb878;
+
+}
+
+#menu .navbar-brand {
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins medium',sans-serif;
+    font-size: 40px;
+    margin-left: 30px;
+}
+#menu .navbar-brand span{
+    color:#09e474 ;
+    margin-left: -5px;
+}
+.mega-menu a{
+    text-decoration: none;
+}
+
+#menu ul li .nav-link{
+    
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-family: 'Poppins medium' ,sans-serif;
+
+}
+#menu ul li .nav-link:hover{
+    
+    margin-left: 20px;
+    text-decoration: none;
+    color: #3cb878;
+    font-size: 18px;
+    font-family: 'Poppins medium' ,sans-serif;
+}
+
+#menu .dropdown-menu .dropdown-item a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Poppins medium' ,sans-serif;
+    color: #fff;
+    margin-left: 0px;
+}
+.mega-menu ul{
+   list-style-type: none;
+
+}
+
+.mega-menu h6{
+   
+    color:#09e474;
+ 
+}
+
+.icon-bar {
+    position: absolute;
+    top: 32%;
+    right: 0%;
+    margin-right:100px;
+    font-size: 24px;
+
+}
+
+.icon-bar ul > li > i 
+{   
+    padding-left:10px;
+    color: #2c3e50;
+}
+.shop-badge{
+    border: 1px solid #fff;
+    border-radius: 100%;
+    position: absolute;
+    top: -8px;
+    left: 20px;
+    padding: 2px;
+    height: 20px;
+    width: 20px;
+    font-size: 14px;
+    line-height: 16px;
+    background-color:#3cb878;
+    color: #fff;
+}
+
+.sb-search
+{
+    position: relative;
+    width: 0%;
+    min-width: 30px;
+    height:30px;
+    border: 0px;
+    margin-top: 32px;
+    margin-right: 120px;
+    margin-bottom: 10px;
+    -webkit-transition:.4s;
+    -moz-transition: .4s;
+    transition: .4s;
+    overflow: hidden;
+    float: right;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+}
+.sb-search-input
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: none;
+    outline: none;
+    background-color: #09e474;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 5px 45px 5px 20px;
+    font-family: inherit;
+    font-size: 14px;
+    color: #2c3e50;
+    z-index: 10;
+    line-height: 50px;
+
+}
+
+input[type='search'].sb-search-input
+{
+    -webkit-appearance: none;
+    -webkit-border-radius:0px;
+    border-radius: 0px;
+}
+.sb-search-input::-webkit-input-placeholder
+{
+    color: #fff;
+    font-style: italic;
+}
+.sb-search-input::-moz-input-placeholder
+{
+    color: #fff;
+    font-style: italic;
+}
+.sb-search-input::-o-input-placeholder
+{
+    color: #0C5CF1;
+    font-style: italic;
+}
+.sb-search-input::-ms-input-placeholder
+{
+    color: #0C5CF1;
+    font-style: italic;
+}
+.sb-icon-search,
+.sb-search-submit
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    line-height: 50px;
+    
+}
+.sb-search-submit {
+	background: #fff; /* IE needs this */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE 5-7 */
+    opacity: 0;
+	color: transparent;
+	border: none;
+	outline: none;
+	z-index: -1;
+}
+.sb-icon-search
+{
+    color: #fff;
+    background-color: #000;
+    font-family: 'fontawesome';
+    z-index: 90;
+    font-size: 12px;
+    line-height: 30px;
+    font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+.sb-icon-search::before
+{
+    content: "\f002";
+}
+.sb-search.sb-search-open,
+.no-js .sb-search {
+	width: 70%;
+}
+.sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search {
+	background: #09e474;
+	color: #000;
+	z-index: 11;
+}
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+	z-index: 90;
+}
+
+
+/* ###################################### End of Head-area Code ######################################  */
+
+
+
+
+
+
+/* ###################################### End of Header Area Code ######################################  */
+
+/* ###################################### Start of Banner Area Code ######################################  */
+#banner{
+    width: 100%;
+    margin-bottom: 50px;
+    overflow-x: hidden;
+   
+}
+#banner .carousel-item::before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.74;
+}
+
+#banner .carousel-item img{
+    height: 630px;
+}
+ .carousel-caption
+{
+    top: 230px;
+  
+    
+
+}
+ .carousel-caption h6
+{
+   font-size: 18px;
+    color:  #fff;
+    margin-top: -20px;
+    margin-left: 100px;
+}
+.carousel-caption h1
+{
+    font-size: 50px;
+    margin-left: -200px;
+    color:  #09e474;
+   
+    
+}
+
+
+#banner .carousel-caption .buy-btn
+{
+    background-color: #09e474;
+    color:#fff;
+    width: 90px;
+    height: 30px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 14px;
+    outline: 0 !important;
+    font-family: 'Poppins medium',sans-serif;
+    position: absolute;
+    top: 50%;
+    right: 91%;
+    margin-top: 20px;
+    text-decoration: none;
+    
+   
+
+}
+#banner .carousel-caption .join-btn
+{
+    background-color: #09e474;
+    color:#fff;
+    width: 90px;
+    height: 30px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 14px;
+    outline: 0 !important;
+    font-family: 'Poppins medium',sans-serif;
+    position: absolute;
+    top: 50%;
+    right: 82%;
+    margin-top: 20px;
+    text-decoration: none;
+    
+   
+
+} 
+#banner .carousel-caption a
+{
+   margin-left: -500px;
+    
+   
+
+}
+#banner .carousel .carousel-indicators li
+{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    transform: translateX(-50%);
+   
+
+}
+#banner .carousel .carousel-indicators .active
+{
+    background-color: #09e474;
+   
+
+}
+#banner .carousel .carousel-indicators
+{
+    bottom: 10%;
+} 
+
+/* ###################################### End of Banner Area Code ######################################  */
+.Register-area h4{
+    font-size: 40px;
+    color: #09e474;
+  
+}
+.login-button{
+    padding-top: 20px;
+}
+.login-button a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    
+}
+.login-button a,.login-button a:hover{
+    
+    background-color: #09e474;
+    color: #fff;
+    padding: 10px;
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 14px;
+    text-decoration: none;
+    
+
+}
+
+/* ######################################  Start of Footer Top Area Code ######################################  */
+
+#footer-top{
+    overflow-x: hidden;
+    margin: 50px 0px 0px 0px;
+    background-color: #1b1b1b;
+}
+.footer-area{
+    width: 100%;
+
+}
+.footer-area .footer-content{
+    padding:50px 0px 0px 0px;
+}
+.footer-area .footer-content h4{
+    font-size: 18px;
+    color: #09e474;
+    padding-bottom: 10px;
+    margin:0 auto;
+    text-align: center;
+    justify-items: center;
+}
+.footer-content .contact-list-inline li{
+    padding-top: 10px;
+    max-width: 150px;
+    color: #fff;
+    font-size: 12px;
+    padding-right: 0px;
+   
+}
+.footer-content .contact-list-inline li i{
+    font-size: 14px;
+    padding: 10px ;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 0px;
+    float: left;
+    
+   
+}
+
+.footer-content .list-group li{
+    padding-top: 12px;
+   
+    font-size: 14px;
+    list-style: none;
+    margin-left: 30px;
+    color:#fff
+    
+}
+.footer-content .list-group li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-icon h5{
+    padding-top: 20px;
+    font-size: 16px;
+    margin-left: 30px;
+    color: #fff;
+
+}
+.footer-icon ul{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.footer-icon ul li i{
+    width: 30px;
+    height: 30px;
+    color:#fff;
+    margin-top: 0px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 28px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    margin-bottom: 10px;
+    
+    
+}
+.footer-icon ul li i:hover{
+    background-color:#09e474 ;
+   
+}
+
+ #footer-top .form-control
+{  
+    padding-top: 20px;
+     width: 150px;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 0px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 0px;
+    
+}
+#footer-top .form-control:focus
+{
+    width: 150px;
+    height: 40px;
+    border-color: #09e474;
+    box-shadow: none;
+}
+#footer-top.form-control::-webkit-input-placeholder
+{
+    color: #9e9e9e;
+    font-style: italic;
+    font-size: 12px;
+}
+#footer-top.form-control::-o-input-placeholder
+{
+    color: #9e9e9e;
+    font-style: italic;
+    font-size: 12px;
+}
+#footer-top .form-control::-moz-input-placeholder
+{
+    color: #9e9e9e;
+    font-style: italic;
+    font-size: 12px;
+}
+#footer-top .form-control::-ms-input-placeholder
+{
+    color: #9e9e9e;
+    font-style: italic;
+    font-size: 12px;
+}
+#footer-top button{
+    margin-top: 18px;
+    width: 60px;
+    height: 43px;
+    font-size: 12px;
+    background-color: #555;
+    border: 1px solid #000;
+    border-radius: 0px;
+    margin-left: 0px;
+}
+#footer-top button i{
+    font-size: 16px;
+    color: #fff;
+    line-height: 16px;
+}
+.commitment p{
+    font-size: 12px;
+    margin-right: 40px;
+    color: #fff;
+    text-align: justify;
+}
+/* ###################################### End of Footer Top Area Code ######################################  */
+
+
+
+
+
+
+
+
+
+/* ######################################  Start of Footer End Area Code ######################################  */
+#footer-end
+{
+   
+    background-color: #000;
+    color: #fff;
+    height: 60px;
+    
+
+}
+#footer-end p{
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    float: left;
+    padding-left: 20px;
+   
+}
+.footer-end-icon ul{
+    padding-right:100px;
+    padding-top: 20px;
+    
+}
+.footer-end-icon ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-end-icon i{
+    font-size: 26px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    
+    
+}
+
+
+
+/* ###################################### End of Footer End Area Code ######################################  */
